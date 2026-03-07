@@ -1,0 +1,10 @@
+name: BedHopper
+version: '1.0-SNAPSHOT'
+main: com.jackhuey.BedHopper
+api-version: '1.21'
+authors: [ Jack Huey ]
+description: Allows players to pick which bed (or respawn anchor) to respawn from when they die
+website: jackhuey.com/bedhopper
+commands:
+  spawns:
+    description: Lists spawn points
