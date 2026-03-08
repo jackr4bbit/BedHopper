@@ -13,7 +13,6 @@ public final class BedHopper extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
         this.getCommand("spawns").setExecutor(new ListCommand(this));
         getServer().getPluginManager().registerEvents(new SpawnListener(this), this);
         getServer().getPluginManager().registerEvents(new OnRespawn(), this);
